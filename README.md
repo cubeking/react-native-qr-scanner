@@ -8,12 +8,12 @@
 
 ### 安装依赖
 ```bash
-yarn add react-native-camera react-native-qr-scanner
+npm install react-native-camera @cubeking/react-native-qr-scanner --save
 ```
 
 ### link依赖到native 
 ```bash
-react-native link react-native-camera && react-native-qr-scanner
+react-native link react-native-camera && @cubeking/react-native-qr-scannerr
 ```
 
 ### 添加相机权限：
