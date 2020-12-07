@@ -2,13 +2,15 @@
 [![NPM Version](https://img.shields.io/npm/v/react-native-qr-scanner.svg?style=flat)](https://www.npmjs.com/package/react-native-qr-scanner)
   [![License](http://img.shields.io/npm/l/react-native-qr-scanner.svg?style=flat)](https://github.com/shifeng1993/react-native-qr-scanner/blob/master/LICENSE)
 
-一个react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移。
+一个react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移。支持react native 0.60.0以上, 
+修复https://www.npmjs.com/package/react-native-qr-scanner  xcode pod install问题
 
 ## 安装步骤：
 
 ### 安装依赖
 ```bash
 npm install react-native-camera @cubeking/react-native-qr-scanner --save
+
 ```
 
 ### link依赖到native 
