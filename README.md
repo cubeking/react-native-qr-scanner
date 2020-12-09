@@ -2,8 +2,8 @@
 [![NPM Version](https://img.shields.io/npm/v/react-native-qr-scanner.svg?style=flat)](https://www.npmjs.com/package/react-native-qr-scanner)
   [![License](http://img.shields.io/npm/l/react-native-qr-scanner.svg?style=flat)](https://github.com/shifeng1993/react-native-qr-scanner/blob/master/LICENSE)
 
-一个react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移。支持react native 0.60.0以上, 
-修复https://www.npmjs.com/package/react-native-qr-scanner  xcode pod install问题
+一个react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移。支持react native 0.60.0以上, 修复https://www.npmjs.com/package/react-native-qr-scanner xcode pod install问题
+
 
 ## 安装步骤：
 
@@ -49,7 +49,7 @@ https://github.com/react-native-community/react-native-camera/blob/master/docs/G
 ```javascript
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import {QRscanner} from 'react-native-qr-scanner';
+import {QRscanner} from '@cubeking/react-native-qr-scanner';
 
 export default class Scanner extends Component {
   constructor(props) {
@@ -219,6 +219,7 @@ QRreader(path:uri)是一个promise对象，接受一个uri图片路径参数，
 
 
 ## 历史版本特性
+#### 1.3.3  修复ios, pod install问题, 支持0.60.0以上版本。
 #### 1.3.2  因android扫描区域计算有诸多问题，所以注释掉android计算扫描区域，恢复android设备的全屏扫描。
 #### 1.3.1  修复ios打包发生的找不到库的错误,降低相册二维码识别的ios最低版本支持
 #### 1.3.0  修复android扫描的一个bug，加入相册二维码识别，感谢lewin大神的开源二维码识别。
