@@ -4,6 +4,9 @@
 
 一个react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移。支持react native 0.60.0以上, 修复https://www.npmjs.com/package/react-native-qr-scanner xcode pod install问题
 
+## 效果
+
+![Image text](https://github.com/cubeking/react-native-qr-scanner/blob/master/img/1061607479739_.pic_hd.jpg)
 
 ## 安装步骤：
 
