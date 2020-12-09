@@ -1,6 +1,6 @@
 {
   "name": "@cubeking/react-native-qr-scanner",
-  "version": "1.3.3",
+  "version": "1.3.5",
   "description": "react-native-qr-scanner",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,11 @@
     "url": "git+https://github.com/cubeking/react-native-qr-scanner.git"
   },
   "keywords": [
-    "react-native-qr-scanner"
+    "react-native-camera",
+    "react-native-qr-scanner",
+    "react-native-qrcode"
   ],
-  "description": "this is qrcode scanner.",
+  "description": "react native qrcode scanner. support 0.60.0, pod install, react-native的二维码扫描组件，支持扫描区域的限制以及扫描区域的偏移",
   "devDependencies": {
     "react": ">=15.0.0",
     "react-native": ">=0.24.0"
